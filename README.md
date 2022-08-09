@@ -1,6 +1,8 @@
 <h1>Smarticle</h1>
 <h3>Overview</h3>
-<p>Smarticle is useful for anyone who wants to access the article via the web app and read the article of their choice. The application will allow users to post and like articles. As long as the user is not logged in, they can only see the public articles, the top five tweets according to the tags associated with each article, and the number of likes. Moreover, users can create their tags while posting an article, can filter the articles by authors, and categories, and can sort articles by date and number of likes. Upon registration, all features will be accessible to the user such as according to their tag preferences, the user can access both public and private articles. Furthermore, users can like or dislike an article. Apart from this, users can also update their profile, view their posted articles, and tweet count for each tag they added to their preference list.</p>
+<p>Smarticle is useful for anyone who wants to access the article via the web app and read the article of their choice. The application will allow users to post and like articles. The web app will allow registered users to read, post, and like all articles, whereas unregistered users can only see articles. Users can filter articles by authors, categories, date, or number of likes. Upon registration, all features will be accessible to the user such as according to their tag preferences, the user can access both public and private articles. Moreover, users can create their own tags and post their own articles.
+ 
+Furthermore, users can like or dislike an article. We implemented an algorithm to fetch the top 5 tweets for each article using the tags associated with that article. They can also read their published articles and edit their profile. SOLID principles, Agile Sprint, and TDD approach were followed for the project.</p>
 <h3>Build With</h3>
 <ul>
 <li>Backend: Spring Boot, JPA</li>
